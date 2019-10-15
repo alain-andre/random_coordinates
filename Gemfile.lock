@@ -1,0 +1,28 @@
+PATH
+  remote: .
+  specs:
+    random_coordinates (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    border_patrol (0.2.1)
+      nokogiri (>= 1.4.3.1)
+    mini_portile2 (2.4.0)
+    minitest (5.12.2)
+    nokogiri (1.10.4)
+      mini_portile2 (~> 2.4.0)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  border_patrol
+  bundler (~> 2.0)
+  minitest (~> 5.0)
+  rake (~> 10.0)
+  random_coordinates!
+
+BUNDLED WITH
+   2.0.2
